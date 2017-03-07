@@ -126,6 +126,17 @@ PRODUCT_PACKAGES += \
     memtrack.msm8937 \
     liboverlay
 
+# Gralloc
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-service \
+    android.hardware.graphics.mapper@2.0-impl
+
+# HW Composer
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.composer@2.1-service
+
 # Data
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -181,6 +192,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
 
+# Lights IMPL
+PRODUCT_PACKAGES += android.hardware.light@2.0-impl
+
 # Misc
 PRODUCT_PACKAGES += \
     libcurl
@@ -235,6 +249,10 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.msm8937
+
+# Vendor manifest file
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/vintf.xml:$(TARGET_COPY_OUT_VENDOR)/manifest.xml
 
 # Vulkan
 PRODUCT_COPY_FILES += \
