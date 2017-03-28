@@ -241,6 +241,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8937
 
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-service \
+    android.hardware.power@1.0-impl
+
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
     libtinyxml
