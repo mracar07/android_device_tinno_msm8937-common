@@ -118,6 +118,11 @@ PRODUCT_PACKAGES += \
     camera.msm8937 \
     Snap
 
+PRODUCT_PACKAGES += \
+    camera.device@3.2-impl
+    android.hardware.camera.provider@2.4-impl
+    android.hardware.camera.provider@2.4-service
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8937 \
