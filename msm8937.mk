@@ -196,6 +196,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@1.0-service \
     libhealthd.msm
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.manager@1.0-java
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
