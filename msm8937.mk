@@ -175,6 +175,13 @@ PRODUCT_PACKAGES += \
     sap.conf \
     xtwifi.conf
 
+# Healthd packages
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0-impl \
+    android.hardware.health@1.0-convert \
+    android.hardware.health@1.0-service \
+    libhealthd.msm
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
