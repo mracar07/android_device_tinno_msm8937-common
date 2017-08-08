@@ -216,6 +216,12 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
 
+
+# libandroid_net
+PRODUCT_PACKAGES += \
+    libandroid_net \
+    libandroid_net_32
+
 # Misc
 PRODUCT_PACKAGES += \
     libcurl
