@@ -287,6 +287,11 @@ PRODUCT_PACKAGES += \
 # USB HAL
 PRODUCT_PACKAGES += android.hardware.usb@1.0-service
 
+# Vibrator HAL
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.vibrator@1.0-service
+
 # video seccomp policy files
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
