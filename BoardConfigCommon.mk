@@ -116,6 +116,9 @@ BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 # CNE
 BOARD_USES_QCNE := true
 
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
+DEVICE_MATRIX_FILE   := $(COMMON_PATH)/compatibility_matrix.xml
+
 # Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
