@@ -284,10 +284,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     sensors.msm8937
 
-# Vendor manifest file
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vintf.xml:$(TARGET_COPY_OUT_VENDOR)/manifest.xml
-
 # video seccomp policy files
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
