@@ -180,6 +180,9 @@ TARGET_PER_MGR_ENABLED := true
 # Power
 TARGET_POWERHAL_VARIANT := qcom
 
+# Prebuilt telephony
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+
 # Properties
 TARGET_SYSTEM_PROP := $(COMMON_PATH)/system.prop
 
