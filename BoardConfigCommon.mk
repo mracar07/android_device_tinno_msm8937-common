@@ -201,8 +201,8 @@ TARGET_RIL_VARIANT := caf
 BOARD_SECCOMP_POLICY := $(COMMON_PATH)/seccomp
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
+# include device/qcom/sepolicy/sepolicy.mk
+# BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 
 # Sensors
 USE_SENSOR_MULTI_HAL := true
