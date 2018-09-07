@@ -280,7 +280,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.msm8937
+    power.qcom
 
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-service-qti
@@ -288,6 +288,13 @@ PRODUCT_PACKAGES += \
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
     libtinyxml
+
+# RCS
+PRODUCT_PACKAGES += \
+    rcs_service_aidl \
+    rcs_service_aidl.xml \
+    rcs_service_api \
+    rcs_service_api.xml
 
 # RIL
 PRODUCT_PACKAGES += \
