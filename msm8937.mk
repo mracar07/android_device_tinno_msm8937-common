@@ -238,6 +238,10 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     libandroid_net_32
 
+# Lights HAL
+PRODUCT_PACKAGES += \
+    lights.msm8937
+
 # Misc
 PRODUCT_PACKAGES += \
     libcurl
