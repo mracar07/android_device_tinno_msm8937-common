@@ -207,7 +207,7 @@ BOARD_SECCOMP_POLICY := $(COMMON_PATH)/seccomp
 # BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 
 # Sensors
-USE_SENSOR_MULTI_HAL := true
+# USE_SENSOR_MULTI_HAL := true
 
 # TWRP Support - Optional
 ifeq ($(WITH_TWRP),true)
